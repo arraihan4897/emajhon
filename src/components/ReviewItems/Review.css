@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    padding: 8px;
+    border: .1px solid gray;
+    border-radius: 10px;
+    width: 571px;
+    margin: 21px auto;
+    padding: 10px;
+}
+.review-details-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.container img{
+    height: 91px;
+    margin-right: 17px;
+ 
+
+}
+.review-details p{
+    margin: 0;
+}
+.deletIcon:hover{
+    color: rgb(216, 57, 57);
+    background-color: rgb(249, 151, 157);
+    cursor: pointer;
+
+}
+
+.deletIcon{
+    color: red;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: rgb(252, 208, 210);
+
+}
+.delet-btn{
+    display: flex;
+    align-items: center;
+   
+}
+.delet-btn button{
+    border: 1px;
+    border-radius: 50%;
+}
